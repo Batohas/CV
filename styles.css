@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+    background-color: rgb(195, 223, 212);
+    color: rgb(0, 0, 0);
+    /* font-size: 17px;
+    font-weight: 300; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: 'Roboto', sans-serif; */
+
+    font: normal  16px 'Roboto', sans-serif;     
+}
+
+.a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+a:visited {
+    color: rgb(7, 7, 7);
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+   
+}
+
+.info-text {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.info p {
+    color:rgb(35, 34, 34);
+    /* margin: 0%; */
+    /* letter-spacing: 1px; */
+    /* word-spacing: 20px; */
+    
+}
+
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bg-yellow  {
+    background: #fff9dc;
+}
+
+.bg-green  {
+    background: #e5ffe7;
+}
+
+.bg-red  {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+}
+
+.list {
+    padding: 0 20px;
+
+}
+
+.list li {
+    color: #000000;
+    margin-bottom: 5px;
+}
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+.link-list {
+    list-style: none;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 20px; 
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(33, 32, 32);
+    color: #000000;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display:flex; 
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.btm {
+    background: #000000;
+    color: #fffafa;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btm:hover  {
+    opacity: 0.9;
+}
+
+/* Position */
+
+/* .position   {
+position: relative;
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+} */
+
+.box    {
+    position: fixed;
+    bottom:  100px;
+    right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #053698;
+}
